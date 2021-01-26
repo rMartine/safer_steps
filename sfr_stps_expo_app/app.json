@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "safer_steps",
+    "slug": "safer_steps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.uottawa.mcrlab.safersteps.mobile.ios",
+      "buildNumber": "10.0.0"
+    },
+    "android": {
+      "package": "org.uottawa.mcrlab.safersteps.mobile.droid",
+      "versionCode": 10
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Testing Version"
+  }
+}
